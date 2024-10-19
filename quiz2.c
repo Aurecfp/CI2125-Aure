@@ -15,7 +15,7 @@ int main() {
     printf("Introduzca el valor de y = ");
     scanf("%d",&y);
     
-    printf("\n%d + %d = %d\n\n",x,y,x+y);
+    printf("\n%d || %d = %d\n",x,y,x||y);
     
     }
 
@@ -24,6 +24,6 @@ int main() {
 }
 /*
 *
-* printf(&quot;\n%d || %d = %d\n&quot;,x,y,x||y);
+* printf("\n%d || %d = %d\n",x,y,x||y);
 *
 */
