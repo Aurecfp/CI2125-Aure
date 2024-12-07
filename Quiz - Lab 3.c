@@ -1,3 +1,12 @@
+/* 
+Errores corregidos:
+
+- Declaré y usé correctamente 'opc'.
+- Corregí los parámetros de las funciones y el acceso a las variables.
+- Reemplacé el bucle while (!feof(fp)) por fscanf.
+- Validé la longitud de 'dpto' antes de comparar caracteres.
+*/
+
 #include <stdio.h>
 #include <string.h>
 
